@@ -1,0 +1,63 @@
+body{
+    background-color: aliceblue;
+    padding: 5px;
+}
+table{
+    margin: auto;
+}
+th{
+    background-color: darkolivegreen;
+    /* background-color: lightseagreen; */
+}
+
+th, td {
+    border: 2px solid;
+    text-align: center;
+    padding: 15px;
+    /* background-color: antiquewhite; */
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.temp, .wind, .picture{
+    width: 100px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.weatherInfo{
+    overflow: scroll;
+    width: 675px;
+    height: 90px;
+    display: inline-block;
+    background-color: antiquewhite;
+    margin-left: 20px;
+
+}
+
+/* @media screen and (min-width: 600px) {
+    .temp, .wind, .picture{
+        width: 100px;
+        height: 90px;
+        display: inline-block;
+        text-align: center;
+        background-color: antiquewhite;
+    
+    }
+    
+    .weatherInfo{
+        overflow: scroll;
+        width: 541px;
+        height: 90px;
+        display: inline-block;
+        background-color: antiquewhite;
+    
+    }
+
+} */
